@@ -1,0 +1,11 @@
+module decoder2to4(t1,t2,en,W1,W2,W3,W4);
+
+output W1, W2, W3, W4;
+input t1, t2,en;  
+
+assign W1 = (en&(~t1)&(~t2));
+assign W2 = (en&(~t1)&t2);
+assign W3 = (en&(~t2)&t1);
+assign W4 = (en&t2&t1);
+
+endmodule

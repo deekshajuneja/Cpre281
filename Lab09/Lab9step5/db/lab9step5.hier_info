@@ -1,0 +1,8 @@
+|lab9step5
+Q <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+clock => inst7.IN0
+clock => inst100.IN1
+D => inst8.IN0
+~Q <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+
+

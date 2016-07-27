@@ -1,0 +1,96 @@
+|Lab07step2
+S3 <= Lab07step1:inst.S3
+X3 => Lab07step1:inst.x3
+Control => inst4.IN0
+Control => inst1.IN0
+Control => inst2.IN0
+Control => Lab07step1:inst.Cin
+Control => inst3.IN0
+Y3 => inst4.IN1
+X2 => Lab07step1:inst.x2
+Y2 => inst1.IN1
+X1 => Lab07step1:inst.x1
+Y1 => inst2.IN1
+X0 => Lab07step1:inst.x0
+Y0 => inst3.IN1
+Cout <= Lab07step1:inst.Cout
+Overflow <= Lab07step1:inst.Overflow
+S2 <= Lab07step1:inst.S2
+S1 <= Lab07step1:inst.S1
+S0 <= Lab07step1:inst.S0
+
+
+|Lab07step2|Lab07step1:inst
+S0 <= Lab07:inst3.S
+Cin => Lab07:inst3.Cin
+x0 => Lab07:inst3.X
+y0 => Lab07:inst3.Y
+S3 <= Lab07:inst.S
+x1 => Lab07:inst2.X
+y1 => Lab07:inst2.Y
+x2 => Lab07:inst1.X
+y2 => Lab07:inst1.Y
+x3 => Lab07:inst.X
+y3 => Lab07:inst.Y
+S2 <= Lab07:inst1.S
+S1 <= Lab07:inst2.S
+Cout <= Lab07:inst.Cout
+Overflow <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab07step2|Lab07step1:inst|Lab07:inst3
+Cin => S.IN0
+Cin => Cout.IN0
+Cin => Cout.IN0
+X => S.IN1
+X => Cout.IN0
+X => Cout.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab07step2|Lab07step1:inst|Lab07:inst
+Cin => S.IN0
+Cin => Cout.IN0
+Cin => Cout.IN0
+X => S.IN1
+X => Cout.IN0
+X => Cout.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab07step2|Lab07step1:inst|Lab07:inst1
+Cin => S.IN0
+Cin => Cout.IN0
+Cin => Cout.IN0
+X => S.IN1
+X => Cout.IN0
+X => Cout.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Lab07step2|Lab07step1:inst|Lab07:inst2
+Cin => S.IN0
+Cin => Cout.IN0
+Cin => Cout.IN0
+X => S.IN1
+X => Cout.IN0
+X => Cout.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

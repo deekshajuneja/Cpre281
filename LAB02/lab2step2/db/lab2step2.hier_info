@@ -1,0 +1,16 @@
+|lab2step2
+output <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Cabbage => inst7.IN0
+Cabbage => inst4.IN2
+Cabbage => inst2.IN2
+Cabbage => inst6.IN0
+Goat => inst8.IN0
+Goat => inst2.IN1
+Goat => inst3.IN1
+Goat => inst6.IN1
+Wolf => inst9.IN0
+Wolf => inst3.IN2
+Wolf => inst5.IN2
+Wolf => inst6.IN2
+
+

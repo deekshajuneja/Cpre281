@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, /home/deeksha/Cpre 281/LAB04/lab4step4/lab4step4.bdf
+source_file = 1, /home/deeksha/Cpre 281/LAB04/lab4step4/normal.v
+source_file = 1, /home/deeksha/Cpre 281/LAB04/lab4step4/power_saving.v
+source_file = 1, /home/deeksha/Cpre 281/LAB04/lab4step4/multiplexer.v
+source_file = 1, /home/deeksha/Cpre 281/LAB04/lab4step4/db/lab4step4.cbx.xml
+design_name = lab4step4
+instance = comp, \M~I\, M, lab4step4, 1
+instance = comp, \H~I\, H, lab4step4, 1
+instance = comp, \P~I\, P, lab4step4, 1
+instance = comp, \T~I\, T, lab4step4, 1
+instance = comp, \inst3|AC~0\, inst3|AC~0, lab4step4, 1
+instance = comp, \AC~I\, AC, lab4step4, 1

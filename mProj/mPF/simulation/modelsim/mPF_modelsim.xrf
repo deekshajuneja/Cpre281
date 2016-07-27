@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, /home/deeksha/Cpre 281/mProj/mPF/mPF.bdf
+source_file = 1, /home/deeksha/Cpre 281/mProj/mPF/db/mPF.cbx.xml
+source_file = 1, /home/deeksha/Cpre 281/mProj/mPF/mProj.v
+design_name = mPF
+instance = comp, \z~I\, z, mPF, 1
+instance = comp, \x~I\, x, mPF, 1
+instance = comp, \y~I\, y, mPF, 1
+instance = comp, \w~I\, w, mPF, 1
+instance = comp, \inst7~0\, inst7~0, mPF, 1
+instance = comp, \output~I\, output, mPF, 1

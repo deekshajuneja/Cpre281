@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, mProjB.v
+source_file = 1, /home/deeksha/Cpre 281/mProj/mProj.v
+source_file = 1, /home/deeksha/Cpre 281/mProj/output_files/Chain1.cdf
+source_file = 1, /home/deeksha/Cpre 281/mProj/mProj.1v
+source_file = 1, /home/deeksha/Cpre 281/mProj/db/mProj.cbx.xml
+design_name = mProj
+instance = comp, \Z~I\, Z, mProj, 1
+instance = comp, \X~I\, X, mProj, 1
+instance = comp, \Y~I\, Y, mProj, 1
+instance = comp, \W~I\, W, mProj, 1
+instance = comp, \B~0\, B~0, mProj, 1
+instance = comp, \B~I\, B, mProj, 1

@@ -1,0 +1,11 @@
+module Lab11step1 (a,b,c,d,e,B,C,D,E);
+
+input a,b,c,d,e;
+output B,C,D,E;
+
+assign B = (((~a)&(~c)&d&e)||((~a&c&d&(~e)))||(a&(~c)&d&(~e))||(a&(~b)&(~c)&(~d)&e));
+assign C = ((d&e)||((~a)&(~c)&d&(~e))||((~a)&c&(~d)&e)||(a&(~c)&(~d)&(~e))||(a&c&d&e));
+assign D = ((d&e)||((~a)&(~c)&(~d)&e)||((~a)&(~c)&d&(~e))||(a&c&(~d)&e)||(a&c&d&(~e))||(a&(~b)&(~c)&(~d)&(~e)));
+assign E = (((~a)&e)||((~a)&b)||(a&(~e))||((~a)&c&d));
+
+endmodule

@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, /home/deeksha/Cpre 281/LAB02/lab2step1/lab2step1.bdf
+source_file = 1, /home/deeksha/Cpre 281/LAB02/lab2step1/db/lab2step1.cbx.xml
+design_name = lab2step1
+instance = comp, \b~I\, b, lab2step1, 1
+instance = comp, \c~I\, c, lab2step1, 1
+instance = comp, \a~I\, a, lab2step1, 1
+instance = comp, \inst7~0\, inst7~0, lab2step1, 1
+instance = comp, \Output~I\, Output, lab2step1, 1

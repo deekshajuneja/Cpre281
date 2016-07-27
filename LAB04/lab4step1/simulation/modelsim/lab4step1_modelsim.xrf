@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, /home/deeksha/Cpre 281/LAB04/lab4step1/lab4step1.v
+source_file = 1, /home/deeksha/Cpre 281/LAB04/lab4step1/db/lab4step1.cbx.xml
+design_name = lab4step1
+instance = comp, \C~I\, C, lab4step1, 1
+instance = comp, \B~I\, B, lab4step1, 1
+instance = comp, \A~I\, A, lab4step1, 1
+instance = comp, \F~0\, F~0, lab4step1, 1
+instance = comp, \F~I\, F, lab4step1, 1
